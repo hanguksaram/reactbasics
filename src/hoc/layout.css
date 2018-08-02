@@ -1,0 +1,19 @@
+
+.layout {
+ 
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.layout_main {
+    display: flex;
+    flex-direction: row;
+    flex: 1 1 auto;
+}
+main {
+    flex: 4 2;
+    padding: 5px 0 5px 0;
+    overflow: auto;
+}
